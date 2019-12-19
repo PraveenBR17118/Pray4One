@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="/Users/praveen/Documents/Project/src/test/java/Login.java(failed)">
+    <classes>
+      <class name="Login">
+        <methods>
+          <include name="LoginWithInvalidEmailAndValidPwd"/>
+          <include name="LoginWithInValidEmailAndInvalidPwd"/>
+          <include name="LoginWithValidEmailAndInValidPWD"/>
+        </methods>
+      </class> <!-- Login -->
+    </classes>
+  </test> <!-- /Users/praveen/Documents/Project/src/test/java/Login.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
