@@ -1,19 +1,21 @@
 package com.Pray4One.TestCases;
 
 import com.Pray4One.PageObjects.*;
-import com.beust.jcommander.Parameter;
+import com.Pray4One.Utilities.*;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.qameta.allure.*;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.Test;
+import org.testng.SkipException;
+import org.testng.annotations.*;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
+@Listeners({AllureListener.class})
 public class IntegrationTest1 extends BaseClassAndroid
 {
     private AndroidDriver<AndroidElement> driver1 = capabilities();
@@ -29,11 +31,18 @@ public class IntegrationTest1 extends BaseClassAndroid
         PageFactory.initElements(new AppiumFieldDecorator(driver1) ,this);
     }
 
-    @Test(priority = 1)
-    @Parameter(description = "Request a Prayer")
-    void requestaPrayer() throws Exception
+
+    @Severity(value = SeverityLevel.BLOCKER)
+    @Test(priority=1, description="Verify login")
+    @Description("Verify login with Valid Credentials........")
+    @Epic("EP001")
+    @Feature("Feature1: Login")
+    @Story("Story:Valid login")
+    @Step("Verify login")
+    void loginTest() throws Exception
     {
-        driver1.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+
+        driver1.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         WorkBookPage w1 = new WorkBookPage(driver1);
 
@@ -50,6 +59,25 @@ public class IntegrationTest1 extends BaseClassAndroid
         logger.info("Entered login details");
 
 
+
+    }
+
+
+    @Severity(value = SeverityLevel.NORMAL)
+    @Test(priority=2, description="Request a Prayer")
+    @Description("Verify request a pryer for some one")
+    @Epic("EP001")
+    @Feature("Feature2: Prayer request")
+    @Story("Story:Prayer request")
+    @Step("Verify Prayer request")
+    void requestaPrayer() throws Exception
+    {
+        logger.info("Login is completed");
+
+        driver1.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        WorkBookPage w1 = new WorkBookPage(driver1);
+
         HomePage o1 = new HomePage(driver1);
         o1
                 .tapForMeButton();
@@ -58,6 +86,8 @@ public class IntegrationTest1 extends BaseClassAndroid
         ScrollingPage s1 = new ScrollingPage(driver1);
         s1
                 .scrollTillSubmit(driver1);
+
+        logger.info("Page scrolled down till submit");
 
         Pray4MeRequest p1 = new Pray4MeRequest(driver1);
 //       boolean e1 = p1.CheckSubmitButton.isEnabled();
@@ -82,13 +112,17 @@ public class IntegrationTest1 extends BaseClassAndroid
                 .tapSubmitButton();
         logger.info("Entered all the Prayer request details");
 
-        if(isAlertPresent() == true)
+        Thread.sleep(4000);
+
+        if (isAlertPresent() == true)
         {
-            Thread.sleep(4000);
-            captureScreen(driver1,"Integration Test1");
+            Thread.sleep(3000);
+            //captureScreen(driver1, "Integration Test1");
             driver1.switchTo().alert().accept();//close alert
             //driver1.switchTo().defaultContent();
-            logger.warn("Integration Test is failed due to request is not accepting");
+            logger.fatal("Integration Test is failed due to request is not accepting");
+            //throw new SkipException("Skiping this test");
+            //logger.warn("Integration Test is failed due to request is not accepting");
             Assert.assertTrue(false);
 
 
@@ -120,19 +154,19 @@ public class IntegrationTest1 extends BaseClassAndroid
 
         Thread.sleep(10000);
 
-        if(s12.equals(c12.getPrayingForYouText()))
+        if ("jhkjsagkjhgsak".equals(c12.getPrayingForYouText()))
         {
             Assert.assertTrue(true);
             logger.info("Integration Test1 is passed");
         }
         else
-        {
+            {
             Thread.sleep(10000);
-            captureScreen(driver1,"Integration Test1");
+            //captureScreen(driver1, "Integration Test1");
             logger.warn("Integration Test is Failed");
             Assert.assertTrue(false);
 
-        }
+            }
     }
 
 
@@ -141,6 +175,7 @@ public class IntegrationTest1 extends BaseClassAndroid
     {
         try
         {
+
             logger.info("Checking for popup");
             driver1.switchTo().alert();
             return true;

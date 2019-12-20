@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="90.479" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="105.547" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
@@ -64,25 +64,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="requestaPrayer" classname="com.Pray4One.TestCases.IntegrationTest1" time="90.479">
-    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.Pray4One.TestCases.IntegrationTest1.requestaPrayer(IntegrationTest1.java:93)
-</failure>
-    <system-out><![CDATA[&amp#27;[31mWelcome To Appium Automation Framework&amp#27;[0m
- INFO [main] (IntegrationTest1.java:38)- Openning the app
- INFO [main] (IntegrationTest1.java:48)- Entered login details
- INFO [main] (IntegrationTest1.java:54)- Opened Pray for me page
- INFO [main] (IntegrationTest1.java:73)- Entered all the Prayer request details
-com.Pray4One.PageObjects.RequestConfirmationPage@33c2bd
- INFO [main] (IntegrationTest1.java:79)- Opened Confirmation page
- WARN [main] (BaseClassAndroid.java:52)- Screen Shot is taken
-]]></system-out>
-    <system-err><![CDATA[Dec 17, 2019 5:12:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="loginTest" classname="com.Pray4One.TestCases.IntegrationTest1" time="8.141"/>
+  <testcase name="requestaPrayer" classname="com.Pray4One.TestCases.IntegrationTest1" time="45.641"/>
 </testsuite>

@@ -303,3 +303,45 @@
 2019-12-18 18:36:30,740 - Pray4One -INFO - Checking for popup
 2019-12-18 18:36:38,026 - Pray4One -WARN - Screen Shot is taken
 2019-12-18 18:36:38,640 - Pray4One -WARN - Integration Test is failed due to request is not accepting
+2019-12-19 10:45:47,818 - Pray4One -INFO - Openning the app
+2019-12-19 10:45:53,789 - Pray4One -INFO - Entered login details
+2019-12-19 10:46:06,607 - Pray4One -INFO - Opened Pray for me page
+2019-12-19 10:46:23,582 - Pray4One -INFO - Entered all the Prayer request details
+2019-12-19 10:46:23,584 - Pray4One -INFO - Checking for popup
+2019-12-19 10:46:29,956 - Pray4One -WARN - Screen Shot is taken
+2019-12-19 10:46:30,275 - Pray4One -WARN - Integration Test is failed due to request is not accepting
+2019-12-19 10:47:28,450 - Pray4One -INFO - Openning the app
+2019-12-19 10:47:34,877 - Pray4One -INFO - Entered login details
+2019-12-19 10:47:48,029 - Pray4One -INFO - Opened Pray for me page
+2019-12-19 10:48:06,576 - Pray4One -INFO - Entered all the Prayer request details
+2019-12-19 10:48:06,577 - Pray4One -INFO - Checking for popup
+2019-12-19 10:48:08,365 - Pray4One -INFO - Accepted the enterd details for request prayer
+2019-12-19 17:06:45,478 - Pray4One -INFO - Openning the app
+2019-12-19 17:06:50,902 - Pray4One -INFO - Entered login details
+2019-12-19 17:06:56,218 - Pray4One -INFO - Login is completed
+2019-12-19 17:07:09,049 - Pray4One -INFO - Opened Pray for me page
+2019-12-19 17:07:14,451 - Pray4One -INFO - Page scrolled down till submit
+2019-12-19 17:07:27,655 - Pray4One -INFO - Entered all the Prayer request details
+2019-12-19 17:07:31,660 - Pray4One -INFO - Checking for popup
+2019-12-19 17:07:35,797 - Pray4One -WARN - Screen Shot is taken
+2019-12-19 17:07:36,156 - Pray4One -WARN - Integration Test is failed due to request is not accepting
+2019-12-19 17:11:54,016 - Pray4One -INFO - Openning the app
+2019-12-19 17:12:00,030 - Pray4One -INFO - Entered login details
+2019-12-19 17:12:05,292 - Pray4One -INFO - Login is completed
+2019-12-19 17:12:14,139 - Pray4One -INFO - Opened Pray for me page
+2019-12-19 17:12:19,431 - Pray4One -INFO - Page scrolled down till submit
+2019-12-19 17:12:34,934 - Pray4One -INFO - Entered all the Prayer request details
+2019-12-19 17:12:38,939 - Pray4One -INFO - Checking for popup
+2019-12-19 17:12:43,162 - Pray4One -WARN - Screen Shot is taken
+2019-12-19 17:12:43,434 - Pray4One -FATAL - Integration Test is failed due to request is not accepting
+2019-12-20 10:57:33,317 - Pray4One -INFO - Welcome To Appium Automation Framework
+2019-12-20 10:58:07,108 - Pray4One -INFO - Openning the app
+2019-12-20 10:58:13,360 - Pray4One -INFO - Entered login details
+2019-12-20 10:58:18,802 - Pray4One -INFO - Login is completed
+2019-12-20 10:58:27,518 - Pray4One -INFO - Opened Pray for me page
+2019-12-20 10:58:31,106 - Pray4One -INFO - Page scrolled down till submit
+2019-12-20 10:58:44,617 - Pray4One -INFO - Entered all the Prayer request details
+2019-12-20 10:58:48,620 - Pray4One -INFO - Checking for popup
+2019-12-20 10:58:49,741 - Pray4One -INFO - Accepted the enterd details for request prayer
+2019-12-20 10:58:52,120 - Pray4One -INFO - Opened Confirmation page
+2019-12-20 10:59:04,439 - Pray4One -INFO - Integration Test1 is passed

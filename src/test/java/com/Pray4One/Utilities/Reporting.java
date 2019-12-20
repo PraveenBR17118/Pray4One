@@ -14,12 +14,12 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Reporting extends TestListenerAdapter
 {
+    private ExtentHtmlReporter htmlReporter;
     private ExtentReports extent;
     private ExtentTest logger;
 
@@ -28,7 +28,7 @@ public class Reporting extends TestListenerAdapter
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
         String repName="Test-Report-"+timeStamp+".html";
 
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/Report/" + repName);//specify location of the report
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/Report/" + repName);//specify location of the report
         htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
 
         extent=new ExtentReports();
@@ -55,20 +55,20 @@ public class Reporting extends TestListenerAdapter
         logger=extent.createTest(tr.getName()); // create new entry in th report
         logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
 
-        try
-        {
-            logger.addScreenCaptureFromPath("./Screenshots/.png");
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
+//        try
+//        {
+//            logger.addScreenCaptureFromPath("./Screenshots/.png");
+//        }
+//        catch (Exception e)
+//        {
+//            e.printStackTrace();
+//        }
 
-        String screenshotPath = System.getProperty("user.dir") + "./Screenshots/"+tr.getName()+".png";
+        String screenshotPath = System.getProperty("user.dir") + "/Screenshots/" + tr.getName() + ".png";
         File f = new File(screenshotPath);
         boolean re = f.exists();
 
-        if(re)
+        if( re == true )
         {
             try
             {

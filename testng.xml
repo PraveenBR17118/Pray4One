@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
-    <listeners>
-        <listener class-name="com.Pray4One.Utilities.Reporting" />
-    </listeners>
+<!--    <listeners>-->
+<!--    <listener class-name="com.Pray4One.Utilities.Reporting" />-->
+<!--</listeners>-->
 
     <test  name="Pray4OneAutomation">
        <classes>

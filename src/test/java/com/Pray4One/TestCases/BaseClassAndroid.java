@@ -17,18 +17,22 @@ import java.util.concurrent.TimeUnit;
 public class BaseClassAndroid
 {
 
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_RESET = "\u001B[0m";
+    private static final String ANSI_RED = "\u001B[31m";
+    private static final String ANSI_RESET = "\u001B[0m";
+
+    public AndroidDriver<AndroidElement> driver;
+    private static ThreadLocal<AndroidDriver> tdriver = new ThreadLocal<AndroidDriver>();
 
     public static Logger logger;
 
-    public AndroidDriver<AndroidElement> capabilities() throws MalformedURLException
+    public AndroidDriver capabilities() throws MalformedURLException
     {
         logger = Logger.getLogger("Pray4One");
         //DOMConfigurator.configure(“Log4j.xml”);
         PropertyConfigurator.configure("Log4j.properties");
 
-        System.out.println(ANSI_RED + "Welcome To Appium Automation Framework" + ANSI_RESET);
+        //System.out.println(ANSI_RED + "Welcome To Appium Automation Framework" + ANSI_RESET);
+        logger.info("Welcome To Appium Automation Framework");
         File AppLocation = new File("src");
         //File InstallAppLocation = new File(AppLocation, "pray4One-Android.apk");
         File InstallAppLocation = new File(AppLocation, "app-release (1).apk");
@@ -40,8 +44,13 @@ public class BaseClassAndroid
                 (new URL("http://127.0.0.1:4723/wd/hub"), capability);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        tdriver.set(driver);
+        return getDriver();
+    }
 
-        return driver;
+    public static synchronized AndroidDriver getDriver()
+    {
+        return tdriver.get();
     }
 
     public void captureScreen(AndroidDriver driver, String tname) throws Exception
