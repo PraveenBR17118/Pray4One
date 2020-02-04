@@ -6,40 +6,47 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b56f229-c3b6-4707-ade2-1a1caaf5f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/AllureListener.java" afterDir="false" />
+    <list default="true" id="8b56f229-c3b6-4707-ade2-1a1caaf5f7ee" name="Default Changelist" comment="Appium java Hybrid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Test-Report-2019.12.18.18.35.22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Integration Test1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/15b8e889-988b-4c04-b0b5-e463c31d79ca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/20e78d1e-ab5c-4a60-862e-8964894350fa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23cb4593-a0a9-496d-bf07-542186191a3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/27351c66-2601-4379-86dc-664d8f9647fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2863fc0c-1c42-471b-9c42-b13f11e7d2f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5acc3af4-f665-41ee-8006-1d9d809902f0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/85cb108f-3ff2-4629-8f54-d3db9e95e86e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/938cf07e-b6a0-4c27-8caf-2df8748c0c82-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b0194722-ce44-4d59-9569-2de1cc288691-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e0be8610-0b74-4854-aaff-5fa12c538782-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ed7d293b-f276-43bc-95ef-078f45449f55-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f4c3caa6-46f4-4b40-9959-c7b04039a728-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f7a28f9e-9cb3-4a3c-bbad-0bfbc75afcbe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9a7ce8d-795f-409d-bd3e-a30c610e9d58-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fb207a01-160a-4bb3-8074-834cefb13b7b-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pray4One/TestCases/BaseClassAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pray4One/TestCases/BaseClassAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pray4One/TestCases/IntegrationTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pray4One/TestCases/IntegrationTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/Reporting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/Reporting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/AllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Pray4One-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Pray4One-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Pray4OneAutomation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Pray4OneAutomation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Pray4OneAutomation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Pray4OneAutomation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.Pray4One.TestCases.IntegrationTest1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.Pray4One.TestCases.IntegrationTest1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pray4One/TestCases/BaseClassAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pray4One/TestCases/BaseClassAndroid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pray4One/TestCases/IntegrationTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pray4One/TestCases/IntegrationTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pray4One/Utilities/Reporting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pray4One/Utilities/Reporting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pray4One/Utilities/AllureListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pray4One/Utilities/AllureListener.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +62,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Praveen" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -77,7 +90,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings interpreter-options="python">
+        <option name="myInterpreterOptions" value="python" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,17 +121,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/praveen/Documents/Project/testng.xml">
-    <configuration name="AppTestAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.valmiki">
+    <configuration name="valmiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTestAndroid" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/java/com/Pray4One/Utilities/valmiki.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="IntegrationTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project" />
@@ -166,7 +196,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AppTestAndroid" />
+      <item itemvalue="Python.valmiki" />
       <item itemvalue="TestNG.IntegrationTest1.requestaPrayer" />
       <item itemvalue="TestNG.IntegrationTest1" />
       <item itemvalue="TestNG.IntegrationTest2" />
@@ -174,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.valmiki" />
         <item itemvalue="TestNG./Users/praveen/Documents/Project/testng.xml" />
         <item itemvalue="TestNG.IntegrationTest2" />
         <item itemvalue="TestNG.IntegrationTest1.requestaPrayer" />
         <item itemvalue="TestNG.IntegrationTest1" />
-        <item itemvalue="TestNG.AppTestAndroid" />
       </list>
     </recent_temporary>
   </component>
@@ -207,5 +237,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Appium java Hybrid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appium java Hybrid" />
   </component>
 </project>

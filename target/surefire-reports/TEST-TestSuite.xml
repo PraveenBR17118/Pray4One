@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="105.547" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="124.195" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
@@ -64,6 +64,23 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="loginTest" classname="com.Pray4One.TestCases.IntegrationTest1" time="8.141"/>
-  <testcase name="requestaPrayer" classname="com.Pray4One.TestCases.IntegrationTest1" time="45.641"/>
+  <testcase name="loginTest" classname="com.Pray4One.TestCases.IntegrationTest1" time="9.377"/>
+  <testcase name="requestaPrayer" classname="com.Pray4One.TestCases.IntegrationTest1" time="65.727">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.Pray4One.TestCases.IntegrationTest1.requestaPrayer(IntegrationTest1.java:166)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method requestaPrayer start
+ INFO [main] (IntegrationTest1.java:74)- Login is completed
+ INFO [main] (IntegrationTest1.java:83)- Opened Pray for me page
+ INFO [main] (IntegrationTest1.java:89)- Page scrolled down till submit
+ INFO [main] (IntegrationTest1.java:112)- Entered all the Prayer request details
+ INFO [main] (IntegrationTest1.java:178)- Checking for popup
+ INFO [main] (IntegrationTest1.java:146)- Accepted the enterd details for request prayer
+com.Pray4One.PageObjects.RequestConfirmationPage@6233c6c2
+ INFO [main] (IntegrationTest1.java:151)- Opened Confirmation page
+ WARN [main] (IntegrationTest1.java:165)- Integration Test is Failed
+I am in onTestFailure method requestaPrayer failed
+Screenshot captured for test case:requestaPrayer
+]]></system-out>
+  </testcase>
 </testsuite>

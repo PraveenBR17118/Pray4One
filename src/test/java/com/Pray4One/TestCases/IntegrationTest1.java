@@ -9,7 +9,6 @@ import io.qameta.allure.*;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.*;
 import java.io.IOException;
 import java.net.MalformedURLException;

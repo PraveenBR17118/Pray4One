@@ -17,20 +17,21 @@ public class AllureListener implements ITestListener
     }
 
     @Attachment
-    public byte[] saveFailureScreenShot(AndroidDriver driver)
+    private byte[] saveFailureScreenShot(AndroidDriver driver)
     {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
     @Attachment(value = "{0}", type = "text/plain")
-    public static String saveTextLog(String message)
+    private static String saveTextLog(String message)
     {
         return message;
     }
 
 
     @Override
-    public void onStart(ITestContext iTestContext) {
+    public void onStart(ITestContext iTestContext)
+    {
         System.out.println("I am in onStart method " + iTestContext.getName());
         iTestContext.setAttribute("AndroidDriver", BaseClassAndroid.getDriver());
     }
